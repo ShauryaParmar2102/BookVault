@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookVault</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>BookVault 📖</h1>
+
+        <div class="form">
+            <input id="bookTitle" placeholder="Book Title">
+            <input id="bookGenre" placeholder="Book Genre">
+            <input id="bookDescription" placeholder="Description">
+            <input id="bookAuthor" placeholder="Author">
+            <input id="bookRating" type="number" min="1" max="5" placeholder="Rating (1-5)">
+            <input id="bookStatus" placeholder="Status (Not Started / Currently Reading / Finished)">
+            <button onclick="addBook()">Add Book</button>
+        </div>
+
+        <div class="controls">
+            <button onclick="loadBooks()">All Books</button>
+            <button onclick="filterBooks('Currently Reading')">Currently Reading</button>
+            <button onclick="filterBooks('Finished')">Finished</button>
+            <button onclick="filterBooks('Not Started')">Not Started</button>
+
+            <input id="search" placeholder="Search for a Book" oninput="searchBooks()">
+
+
+        </div>
+
+        <p id="errorMsg" class="error"></p>
+        <div id="BookList"></div>
+
+    <script src="script.js"></script>
+    </body>
+
+
+</html>
