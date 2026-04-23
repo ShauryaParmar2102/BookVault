@@ -60,7 +60,7 @@ BookVault is a full-stack web application that helps users manage and track thei
 
 - npm install
 
-This installs all required packages and creates the node_modules folder.
+- This installs all required packages and creates the node_modules folder.
 
 3️⃣ Start the Server
 
