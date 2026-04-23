@@ -28,7 +28,7 @@ BookVault is a full-stack web application that helps users manage and track thei
 
 ## 🧠 Tech Stack
 
-# 🎨 Frontend
+### 🎨 Frontend
 
 🌐 HTML
 
@@ -36,7 +36,7 @@ BookVault is a full-stack web application that helps users manage and track thei
 
 ⚡ JavaScript 
 
-# 🛠️ Backend
+### 🛠️ Backend
 
 🟢 Node.js
 
@@ -44,7 +44,7 @@ BookVault is a full-stack web application that helps users manage and track thei
 
 📄 JSON file / simple database storage
 
-## 1️⃣ Download the Project
+### 1️⃣ Download the Project
 
 - Click the green Code button on GitHub
 
